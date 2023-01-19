@@ -1,0 +1,85 @@
+.container {
+    padding: 0;
+    margin: 0;
+    
+}
+/* header is parent of iteams  */
+.header{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    position: sticky;
+    top: 0;
+    
+
+   
+}
+ .iteams .iteam a{
+    color: #fff;
+    text-decoration: none;
+}
+.iteams{
+    display: flex;
+   
+}
+.iteams .iteam{
+    margin-left: 20px;
+    padding: 20px;
+    
+}
+.logo h1{
+    margin-left: 25px;
+}
+
+
+.flex-section-1{
+    display: flex;
+    margin-left: 20px;
+}
+.right img{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+padding-right: 150px;
+
+padding: 20px;}
+.left {
+    
+    padding: 20px;
+}
+.heading .header-1{
+    text-align: center;
+}
+
+
+.learn-more .btn{
+    background-color: #5e5e5e;
+    font-size: larger;
+    border-radius: 10px;
+    margin: 15px;
+   
+    
+}
+.flex-section-1 .left{
+    width: 50%;
+}
+.flex-section-1 .right{
+    width: 50%;
+}
+.flex-images{
+    display: flex;
+    position:absolute;
+    
+}
+.flex-images img{
+    display: flex;
+    padding: 28px;
+    padding-right: 40px;
+   margin-right: 15px;
+   border: 1px solid lightcoral;
+    
+    
+}
